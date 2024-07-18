@@ -1,0 +1,54 @@
+body{
+   background-color: rgb(17, 17, 41);
+   img{
+      border-radius: 10px;
+    display: block;
+    height: 900px;
+    width: 1280px;
+    margin: auto;
+    position: relative;
+   }
+   .texto{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+    font-size: 50px;
+    color: white;
+    font-family: arial black;
+   }
+  .container{
+    width: 600px;
+    height: 600px;
+    border: 1px; 
+    background-color: rgb(33, 33, 75);
+    position: absolute;
+    top: 20%;
+    right: 35%;
+    border-radius: 10px; 
+   }
+   form{
+    position: absolute;
+    top: 35%;
+    right: 42%;
+   }
+   p{
+      color: white;
+      position: absolute;
+      top: 47%;
+      right: 57%;
+      font-size: 13px;
+      font-family: helvetica;
+   }
+   input{
+      padding: 17px;
+      outline: none;
+      border-radius: 15px;
+   }
+   .botao{
+      background-color: rgb(26, 255, 114);
+      border-radius: 15px;
+      width: 120%;
+   }
+   
+}
